@@ -71,11 +71,11 @@ const Sort = () => {
   const { setSort, sort } = useProjects();
 
   return (
-    <Button
+    <button
       className="border border-white/20 px-4 py-2 rounded-full"
       onClick={() => setSort(true)}
     >
       <TextReveal>{sort ? "Sorted" : "Sort"}</TextReveal>
-    </Button>
+    </button>
   );
 };
