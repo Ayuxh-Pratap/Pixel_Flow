@@ -351,9 +351,9 @@ export default function Dropzone() {
             )}
 
             {action.is_converted ? (
-              <Button onClick={() => download(action)}>
+              <button onClick={() => download(action)}>
                 Download
-              </Button>
+              </button>
             ) : (
               <span
                 onClick={() => deleteAction(action)}
@@ -367,22 +367,22 @@ export default function Dropzone() {
         <div className="flex w-full justify-end">
           {is_done ? (
             <div className="space-y-4 w-fit">
-              <Button
+              <button
                 className="rounded-xl font-semibold relative  py-4 px-16 text-md flex gap-2 items-center w-full bg-[#312354]"
                 onClick={downloadAll}
               >
                 {actions.length > 1 ? "Download All" : "Download"}
                 <HiOutlineDownload />
-              </Button>
-              <Button
+              </button>
+              <button
                 onClick={reset}
                 className="rounded-xl"
               >
                 Convert Another File(s)
-              </Button>
+              </button>
             </div>
           ) : (
-            <Button
+            <button
               disabled={!is_ready || is_converting}
               className="rounded-xl font-semibold relative py-4 px-16 text-md flex items-center bg-[#79402C]"
               onClick={convert}
@@ -394,7 +394,7 @@ export default function Dropzone() {
               ) : (
                 <span>Convert Now</span>
               )}
-            </Button>
+            </button>
           )}
         </div>
       </div>
