@@ -8,7 +8,6 @@ import { useState } from "react";
 import Filters from "./filters";
 import { SectionHeading, SlideIn, TextReveal, Transition } from "./ui";
 import { useMediaQuery } from "@/utils/useMediaQuery";
-import { Button } from "./ui/button";
 import { useCursorVariants } from "@/utils/context";
 import { Dialog } from "./ui/dialog";
 import { ProjectsProvider, useProjects } from "@/utils/project-context";
@@ -70,9 +69,9 @@ const ProjectContainer = () => {
       </motion.div>
       <div className="grid place-items-center py-8">
         {filteredProjects.length > numProjectToShow && (
-          <Button onClick={() => setShowMore(!showMore)}>
+          <button onClick={() => setShowMore(!showMore)}>
             <TextReveal>{showMore ? "Show less" : "Show more"}</TextReveal>
-          </Button>
+          </button>
         )}
       </div>
       <Dialog showDialog={showDialog} setShowDialog={setShowDialog} />
