@@ -116,7 +116,7 @@ export default async function Home() {
           <HoverImageLink
             heading="Real-Time Image Editing"
             href="w"
-            price="2"
+            price="Subscription /-"
             imgSrc="2"
             subheading="users frequently require rapid image enhancements or resizing before posting on platforms like Instagram or Twitter"
           />
