@@ -1,5 +1,5 @@
 // imports
-import { Action } from '@/types';
+import { Action } from '../../types';
 import { FFmpeg } from '@ffmpeg/ffmpeg';
 import { fetchFile } from '@ffmpeg/util';
 
