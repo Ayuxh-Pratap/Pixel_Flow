@@ -41,7 +41,7 @@ export const Hero = ({ about }: { about: About }) => {
                 {/* {about.subTitle.split(" ").map((word, index) => (
                   <span key={index}>{word}</span>
                 ))} */}
-                Stop waiting for the conversion fairy! Our client-to-client image converter puts the power in your hands, saving you time and headaches. Say goodbye to endless waiting and hello to instant transformation – because ain't nobody got time for slow conversions!
+                Stop waiting for the conversion fairy! Our client-to-client image converter puts the power in your hands, saving you time and headaches. Say goodbye to endless waiting and hello to instant transformation – because aint nobody got time for slow conversions!
               </p>
             </Transition>
             <Transition viewport={{ once: true }}>

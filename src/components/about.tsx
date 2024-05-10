@@ -69,7 +69,7 @@ const About = ({ about, timeline }: AboutProps) => {
         >
           <span>01</span>
           <span className="text-xl md:text-3xl font-bold flex-1">
-          Pixelflow's Scope
+          Pixelflows Scope
           </span>
           <div className="relative size-6 flex items-center justify-center">
             <span className="bg-primary w-4 md:w-6 h-0.5 absolute" />
@@ -152,7 +152,7 @@ const About = ({ about, timeline }: AboutProps) => {
           className="overflow-hidden"
         >
           <p className="text-foreground/60 py-4 max-md:text-sm">
-          PixelFlow employs cutting-edge peer-to-peer technology, enabling direct communication between users' devices for instant image conversions. Its workflow seamlessly integrates user uploads, conversion algorithms, and real-time display, ensuring swift and efficient transformations without reliance on traditional server processing.
+          PixelFlow employs cutting-edge peer-to-peer technology, enabling direct communication between users devices for instant image conversions. Its workflow seamlessly integrates user uploads, conversion algorithms, and real-time display, ensuring swift and efficient transformations without reliance on traditional server processing.
           </p>
           <ul className="list-disc list-inside">
               <li className="text-foreground/80 max-md:text-sm">
