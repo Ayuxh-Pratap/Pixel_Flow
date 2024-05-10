@@ -15,7 +15,7 @@ import { UserObject } from "@/utils/interfaces";
 import Experience from "@/components/experience";
 import { ContactUs } from "@/components/contact-us";
 import Link from "next/link";
-import { Hero } from "@/components/hero";
+import { Heroco } from "@/components/heroco";
 import Dropzone from "@/components/dropzone";
 
 export default async function Home() {
@@ -44,8 +44,8 @@ export default async function Home() {
         </Link>
       </Transition>
       <Header social={social_handles} />
-      <Hero about={about} />
-      <div className="w-[80%] mx-auto h-fit mb-[2rem]">
+      <Heroco about={about} />
+      <div className="w-[80%] mx-auto h-fit mb-[10rem]">
       <Dropzone />
       </div>
       <div
