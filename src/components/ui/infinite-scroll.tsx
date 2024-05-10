@@ -1,7 +1,7 @@
 "use client";
 
 import { ReactNode, useEffect, useRef, useState } from "react";
-import { cn } from "@/utils/cn";
+import { cn } from "../../utils/cn";
 
 interface TestimonialProps {
   direction?: "left" | "right";

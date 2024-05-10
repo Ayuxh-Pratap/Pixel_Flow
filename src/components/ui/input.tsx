@@ -1,6 +1,6 @@
 "use client";
 
-import { cn } from "@/utils/cn";
+import { cn } from "../../utils/cn";
 import { forwardRef, InputHTMLAttributes, TextareaHTMLAttributes } from "react";
 
 interface InputProps extends InputHTMLAttributes<HTMLInputElement> {}
