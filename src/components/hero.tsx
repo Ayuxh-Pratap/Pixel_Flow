@@ -7,6 +7,7 @@ import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 import { useState } from "react";
 import { PageLoad } from "./ui/page-load";
+import logo from "../../public/pixel_logo.jpeg";
 
 export const Hero = ({ about }: { about: About }) => {
   const [hideLoader, setHideLoader] = useState(true);
@@ -21,7 +22,7 @@ export const Hero = ({ about }: { about: About }) => {
           <div className="flex items-center justify-center flex-col h-full pb-10">
             <Transition>
               <Image
-                src={about.avatar.url}
+                src= { logo }
                 width={200}
                 height={200}
                 alt={about.name}
